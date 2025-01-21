@@ -1,0 +1,33 @@
+.educationSection {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+     color: var(--light-gray);
+}
+.educationContainer{
+     width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.sectionTitle{
+     font-family: var(--font-raleway);
+     font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.placeholder{
+    font-family: var(--font-open-sans);
+    font-size: 1.1rem;
+     margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+@media (max-width: 768px){
+    .sectionTitle{
+       font-size: 2rem;
+    }
+     .placeholder{
+          font-size: 1rem;
+    }
+}
