@@ -1,8 +1,10 @@
 :root {
   --red-primary: #D90429;
   --red-secondary: #EF233C;
+  --red-light:#ffe9ed;;
   --light-gray: #EDF2F4;
   --medium-gray: #8D99AE;
+  --semi-dark-gray: #303246;
   --dark-gray: #2B2D42;
   --font-raleway: 'Raleway', sans-serif;
   --font-open-sans: 'Open Sans', sans-serif;
@@ -42,7 +44,7 @@ background: var(--red-secondary);
 
 /* Custom Cursor */
 body {
-    cursor: url("/cursor.png"), auto; /* Use an image for the cursor */
+    cursor: url("/wscursor.png"), auto; /* Use an image for the cursor */
 }
 a {
   color: inherit; /* Inherit text color from parent */
@@ -58,4 +60,17 @@ button{
   padding: 0;
    margin: 0;
    border: none;
+}
+
+section{
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: var(--medium-gray);
+
+}
+::-moz-selection {
+     background-color: var(--medium-gray);
+ 
 }

@@ -22,12 +22,12 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
     };
   const navItems = [
-        { label: 'Home', href: '#home' },
-        { label: 'Skills', href: '#skills' },
-        { label: 'Projects', href: '#projects' },
-        { label: 'Experience', href: '#experience' },
-        { label: 'Education', href: '#education' },
-        { label: 'Contact', href: '#contact' },
+        { label: 'home', href: '#home' },
+        { label: 'skills', href: '#skills' },
+        { label: 'experience', href: '#experience' },
+        { label: 'projects', href: '#projects' },
+        { label: 'blogs', href: '#blogs' },
+        { label: 'contact', href: '#contact' },
       ];
     return (
         <header className={styles.header}>

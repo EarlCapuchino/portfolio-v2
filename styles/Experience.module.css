@@ -1,138 +1,180 @@
 .experienceSection {
     padding: 2rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
-     align-items: center;
+    align-items: center;
     background-color: var(--dark-gray);
     color: var(--light-gray);
-  }
-  .experienceContainer {
-       width: 90%;
-       max-width: 1200px;
-  }
-  .sectionTitle{
-      font-family: var(--font-raleway);
-      text-align: center;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-  }
-  
-  .timeline {
-      position: relative;
-  }
-  .timeline::before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 0;
-      width: 2px;
-      height: 100%;
-      background: var(--medium-gray);
-      transform: translateX(-50%);
-  }
-  .timelineItem {
-    position: relative;
+}
+
+.experienceContainer {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.sectionTitle {
+    font-family: var(--font-raleway);
+    text-align: left; /* Align title to the left */
+    font-size: 3rem;
     margin-bottom: 2rem;
-  }
-  .timelineItem:last-child{
-      margin-bottom: 0;
-  }
-  
-  .timelineItem:nth-child(odd) .timelineContent {
-      align-items: flex-start;
-  }
-  .timelineItem:nth-child(even) .timelineContent {
-     align-items: flex-end;
-      flex-direction: row-reverse;
-  }
-  
-  .timelineContent {
+    font-weight: 700;
+}
+.experienceSubtitle {
+    font-family: var(--font-raleway);
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.experienceList{
+    padding: 0;
+}
+
+.experienceItem {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+.experienceHeader {
     display: flex;
-    align-items: flex-start;
-    padding: 20px;
-     gap: 2rem;
-  }
-  .imageContainer{
-      width: 150px;
-  }
-  
-  .experienceDetails{
-     flex:1;
-  }
-  .date {
-      font-family: var(--font-raleway);
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-      color: var(--light-gray);
-      }
-  .company {
+    align-items: center;
+    padding: 1rem 0;
+    cursor: pointer;
+      transition: color 0.4s ease;
+}
+
+.experienceHeader:hover {
+    color: var(--red-primary);
+    transition: color 0.4s ease;
+}
+
+.imageContainer {
+  margin-right: 1rem;
+}
+
+
+.experienceDetails {
+  flex: 1;
+  text-align: left;
+}
+.companyTitle {
     font-family: var(--font-open-sans);
-     font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-  }
-  .position {
+    font-size: 1.4rem;
+    font-weight: 700;
+     margin-bottom: 0.3rem;
+}
+.positionTitle {
      font-family: var(--font-open-sans);
-    font-size: 1.1rem;
-      margin-bottom: 0.5rem;
-  }
-  
-  .stack{
-       font-family: var(--font-open-sans);
-       font-size: 0.9rem;
-       margin-bottom: 0.8rem;
-  }
-  
-  .descriptionList{
-         margin-top: 0.5rem;
-        padding-left: 1.2rem;
+      font-style: italic;
+     margin-bottom: 0.3rem;
+}
+.date{
+   font-family: var(--font-open-sans);
+    font-size: 0.9rem;
+   color: var(--medium-gray);
+}
+.expandIcon {
+    color: var(--light-gray);
+    margin-left: auto;
+     transition: transform 0.3s ease;
+
+}
+
+.experienceContent{
+      padding: 0.5rem 0 1rem 0;
+}
+.companyLink{
+   color: var(--red-primary);
+    font-family: var(--font-open-sans);
+    text-decoration: none;
+    display: block;
+     margin-bottom: 0.5rem;
+       transition: color 0.3s ease;
+}
+.companyLink:hover{
+    color: var(--light-gray);
+}
+.description {
+    font-family: var(--font-open-sans);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.stack{
+    font-family: var(--font-open-sans);
+     margin-top: 0.5rem;
+}
+
+.stackTitle{
+      font-weight: 600;
+      margin-right: 0.5rem;
+}
+.educationList{
+     padding: 0;
+}
+.educationItem {
+   margin-bottom: 1rem;
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+.educationHeader {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+.educationDetails{
+   flex: 1;
+   text-align: left;
+}
+.schoolTitle {
+   font-family: var(--font-open-sans);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.courseTitle {
+      font-family: var(--font-open-sans);
+      font-style: italic;
+      margin-bottom: 0.3rem;
+}
+.distinction {
+  font-family: var(--font-open-sans);
+    font-size: 0.9rem;
+   color: var(--medium-gray);
+}
+.educationContent{
+    padding: 0.5rem 0 1rem 0;
+}
+@media (max-width: 768px) {
+     .sectionTitle {
+         font-size: 2.5rem;
+            text-align: center;
     }
-    .descriptionItem{
-         font-family: var(--font-open-sans);
-      font-size: 1rem;
-       margin-bottom: 0.5rem;
-        line-height: 1.5;
+       .experienceSubtitle {
+         font-size: 1.5rem;
+            text-align: center;
     }
-   .learnMore{
-       display: inline-block;
-         margin-top: 1rem;
-          padding: 0.8rem 1.5rem;
-          background-color: var(--red-secondary);
-          color: var(--light-gray);
-           text-decoration: none;
-          border-radius: 5px;
-          transition: background-color 0.3s ease;
-      }
-   .learnMore:hover{
-         background-color: var(--light-gray);
-        color: var(--red-secondary)
-   }
-  
-  @media (max-width: 768px) {
-      .timeline::before{
-        left: 20px;
-      }
-      .timelineItem:nth-child(odd) .timelineContent,
-        .timelineItem:nth-child(even) .timelineContent {
-              flex-direction: row;
-           align-items: flex-start;
-      }
-     .timelineContent {
-          flex-direction: column;
-      }
-       .date {
-         font-size: 1rem;
-      }
-      .company {
-         font-size: 1.2rem;
-      }
-      .position{
-           font-size: 1rem;
-      }
-     .stack{
-        font-size: 0.8rem;
-      }
-      .descriptionItem{
+    .companyTitle {
+      font-size: 1.2rem;
+    }
+     .description {
+        font-size: 0.9rem;
+    }
+    .positionTitle {
           font-size: 0.9rem;
-      }
-  }
+    }
+       .date{
+        font-size: 0.8rem;
+       }
+       .schoolTitle{
+            font-size: 1.2rem;
+       }
+       .courseTitle{
+            font-size: 0.9rem;
+       }
+        .distinction{
+            font-size: 0.8rem;
+       }
+}
