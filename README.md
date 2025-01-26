@@ -15,24 +15,26 @@ This portfolio website showcases my skills, experience, and projects as a Softwa
 This README will provide a documentation of all my experiences and the technologies that I use, along with the projects that I have contributed to.
 
 ## Experience
+## Experience
 
 <details>
-  <summary><b>360-365 Marketing OPC - Full Stack Developer</b> (SEPTEMBER 2024 - JANUARY 2025)</summary>
+  <summary><b>360-365 Marketing OPC - Full Stack Developer</b> (September 2024 - January 2025)</summary>
   
-    *   Designed and implemented end-to-end CRM solutions using Zoho CRM, Zoho Creator, Zoho Books, Zoho Invoice, Zoho Flow, Deluge, and APIs, including custom views and integration with Stripe and shipping providers; also developed 50+ custom Deluge Scripts processing 450+ annual transactions.
-    *   Engineered automated workflows using Zoho Books, Invoice, and Flow, reducing invoice processing time by 75% and improving accuracy to 99.8%.
-    *   Managed WooCommerce and integrated Stripe, processing 450+ annual transactions, developed Forminator forms, maintained 20+ plugins using PHP, and synced 300+ customer records via Bit Integration Pro.
-    *   Monitored 30+ landing pages built with Elementor, achieving 98% mobile compatibility, and optimized SEO with Yoast.
-    *   Led end-to-end QA for an e-commerce platform, developing automated test suites with Selenium and Python, achieving 85% coverage, and maintained documentation using Confluence and JIRA.
-    *   Implemented PyTest, Robot Framework, Allure and Locust, reducing testing time by 70%, improving defect detection by 45%, and utilizing Jenkins for CI/CD.
+  *   Designed and implemented end-to-end CRM solutions using Zoho CRM, Zoho Creator, Zoho Books, Zoho Invoice, Zoho Flow, Deluge, and APIs. This included custom views and integration with Stripe and shipping providers. Additionally, developed 50+ custom Deluge Scripts processing 450+ annual transactions.
+  *   Engineered automated workflows using Zoho Books, Invoice, and Flow, which led to a 75% reduction in invoice processing time and improved accuracy to 99.8%.
+  *   Managed WooCommerce and integrated Stripe to process 450+ annual transactions.  This included development of Forminator forms and maintenance of 20+ plugins using PHP. Furthermore, 300+ customer records were synced via Bit Integration Pro.
+  *   Monitored 30+ landing pages built with Elementor, achieving 98% mobile compatibility, and optimized SEO with Yoast.
+  *   Led end-to-end QA for an e-commerce platform, developing automated test suites with Selenium and Python, which achieved 85% coverage. Documentation was maintained using Confluence and JIRA.
+  *   Implemented PyTest, Robot Framework, Allure, and Locust, reducing testing time by 70% and improving defect detection by 45%. Utilized Jenkins for CI/CD.
 </details>
 
 <details>
-  <summary><b>University of the Philippines, Los Baños - Instructor</b> (SEPTEMBER 2023 - JULY 2024)</summary>
+  <summary><b>University of the Philippines, Los Baños - Instructor</b> (September 2023 - July 2024)</summary>
 
-    *   Subjects taught: Software Engineering, Java Programming, Web Development, Operating Systems, Digital Circuits.
-    *   Handled 16 laboratory classes of over 270 students. Studied over 7 tech stacks and over 10 programming languages
-    *   4.97/5 rating excellent performance, top instructor
+  *   **Subjects Taught:** Software Engineering, Java Programming, Web Development, Operating Systems, Digital Circuits.
+  *   Handled 16 laboratory classes with over 270 students.
+  *   Achieved a 4.97/5 rating, indicating excellent performance as a top instructor.
+  *  Studied 7+ tech stacks and 10+ programming languages.
 </details>
 
 <details>
