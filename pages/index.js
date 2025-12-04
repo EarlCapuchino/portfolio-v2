@@ -54,7 +54,7 @@ const Home = () => {
                             I'M SAM CAPUCHINO
                             </h1>
                             <div className={styles.subTitleContainer}>
-                                <h2 className={styles.subTitle}>Software Engineer/Full Stack Web Developer</h2>
+                                <h2 className={styles.subTitle}>Software Engineer/Senior Full Stack Developer</h2>
                             </div>
                             <button className={styles.button}>
                                   <a href="https://calendly.com/samcapuchino/application-interview" target="_blank" rel="noopener noreferrer">
@@ -64,7 +64,7 @@ const Home = () => {
                         </div>
                         <div className={styles.rightContent}>
                             <p className={styles.paragraph}>
-                                I am a software engineer with <span className={styles.highlight}>five years</span> of experience specializing in the full lifecycle of software development, encompassing
+                                I am a software engineer with <span className={styles.highlight}>six years</span> of experience specializing in the full lifecycle of software development, encompassing
                                 <span className={styles.highlight}>project management</span>, API design, system architecture, QA testing, and automation.
                                 I bring a strategic perspective to the creation of
                                 <span className={styles.highlight}>e-commerce solutions</span> and <span className={styles.highlight}>SAAS</span>. I'm skilled in deploying

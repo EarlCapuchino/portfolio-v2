@@ -39,6 +39,34 @@ const Projects = () => {
             photo: '/projects/tickettaka.png',
             link: 'https://ticket-taka.com/',
         },
+         {
+            title: 'Subtask Manager Issue Template',
+            type: 'auto-update/auto-create Jira Issues',
+            stack: ['GAE', 'Jira DC', 'Jira Connect', 'AWS'],
+            photo: '/projects/stm.png',
+            link: 'https://marketplace.atlassian.com/apps/1214056/stm-issue-templates-auto-manual-create-update-transition',
+        },
+        {
+            title: 'Comment History for Jira',
+            type: 'comment auditor for Jira',
+            stack: ['Jira Forge', 'Forge Storage', 'Selenium'],
+            photo: '/projects/comment-history.png',
+            link: 'https://marketplace.atlassian.com/apps/1211639/comment-history-for-jira',
+        },
+        {
+            title: 'Document Vault',
+            type: 'secured attachments',
+            stack: ['JCMA', 'Jira Forge', 'Forge Storage'],
+            photo: '/projects/docvault.png',
+            link: 'https://marketplace.atlassian.com/apps/1211880/document-vault-secure-attachments-in-jira',
+        },
+        {
+            title: 'Decision Maker',
+            type: 'decision recorder',
+            stack: ['SST', 'Pothos GraphQL', 'AWS'],
+            photo: '/projects/decision-maker.png',
+            link: 'https://marketplace.atlassian.com/apps/1228325/decision-maker-pro',
+        },
     ];
 
 
