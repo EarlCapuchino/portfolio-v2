@@ -1,40 +1,194 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Earl Samuel R. Capuchino - Portfolio Website
 
-## Getting Started
+<div align="center">
+  <p>Software Engineer | Full Stack Web Developer</p>
+  <p>Calamba City, Laguna</p>
+  <p><a href="tel:09611046081">0961-104-6081</a> | <a href="mailto:earlcapuchino@gmail.com">earlcapuchino@gmail.com</a></p>
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio website showcases my skills, experience, and projects as a Software Engineer and Full Stack Web Developer. It's designed to provide a comprehensive overview of my capabilities and the diverse range of technologies I work with.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This README will provide a documentation of all my experiences and the technologies that I use, along with the projects that I have contributed to.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Experience
+## Experience
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+<details>
+  <summary><b>360-365 Marketing OPC - Full Stack Developer</b> (September 2024 - January 2025)</summary>
+  
+  *   Designed and implemented end-to-end CRM solutions using Zoho CRM, Zoho Creator, Zoho Books, Zoho Invoice, Zoho Flow, Deluge, and APIs. This included custom views and integration with Stripe and shipping providers. Additionally, developed 50+ custom Deluge Scripts processing 450+ annual transactions.
+  *   Engineered automated workflows using Zoho Books, Invoice, and Flow, which led to a 75% reduction in invoice processing time and improved accuracy to 99.8%.
+  *   Managed WooCommerce and integrated Stripe to process 450+ annual transactions.  This included development of Forminator forms and maintenance of 20+ plugins using PHP. Furthermore, 300+ customer records were synced via Bit Integration Pro.
+  *   Monitored 30+ landing pages built with Elementor, achieving 98% mobile compatibility, and optimized SEO with Yoast.
+  *   Led end-to-end QA for an e-commerce platform, developing automated test suites with Selenium and Python, which achieved 85% coverage. Documentation was maintained using Confluence and JIRA.
+  *   Implemented PyTest, Robot Framework, Allure, and Locust, reducing testing time by 70% and improving defect detection by 45%. Utilized Jenkins for CI/CD.
+</details>
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<details>
+  <summary><b>University of the Philippines, Los Baños - Instructor</b> (September 2023 - July 2024)</summary>
 
-## Learn More
+  *   **Subjects Taught:** Software Engineering, Java Programming, Web Development, Operating Systems, Digital Circuits.
+  *   Handled 16 laboratory classes with over 270 students.
+  *   Achieved a 4.97/5 rating, indicating excellent performance as a top instructor.
+  *  Studied 7+ tech stacks and 10+ programming languages.
+</details>
 
-To learn more about Next.js, take a look at the following resources:
+<details>
+  <summary><b>BringBack PH - Project Manager</b> (JANUARY 2023 - JANUARY 2025)</summary>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+  *   Built 25+ RESTful APIs (Node.js, Express.js), a scalable MySQL database (AWS RDS), and a responsive ReactJS UI with dynamic QR codes, integrating key features like authentication and payment gateways (Stripe, PayMaya).
+  *   Deployed application on AWS (EC2, RDS, S3, ELB) with load balancing, and implemented a CI/CD pipeline (Jenkins) for automated deployments.
+  *   Led project using Agile/Scrum methodology, achieving 85% sprint completion.
+  *   Implemented automated testing (85%+ code coverage), resolved 150+ bugs, and designed the application for scalability on AWS.
+  *  Designed to handle up to 1200+ users and 5000+ sales
+</details>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<details>
+  <summary><b>PayShipGo - Project Manager</b> (AUGUST 2021 - FEBRUARY 2023)</summary>
 
-## Deploy on Vercel
+  *   Developed 150+ robust RESTful APIs (Node.js, Express.js) to integrate multiple Philippine payment gateways (PesoPay, Dragonpay, PayPal, GCash) and shipping services (LBC, J&T, 2GO, Flash Express), enabling core functionalities like payment processing, shipping calculations, and tracking.
+  *   Implemented a secure OAuth 2.0 authentication and authorization system across all API endpoints, safeguarding sensitive transaction data and managing third-party access.
+  *   Created a normalized PostgreSQL database schema (20+ tables) optimized for transactional data, utilizing AWS RDS for enhanced scalability and performance.
+  *   Conducted initial research and compatibility testing for 10+ payment/shipping APIs, designed a modular architecture, and implemented a scalable microservices architecture for the platform; deploying on AWS (EC2, ELB, RDS).
+  *   Implemented comprehensive testing strategies, achieving 85%+ code coverage, and performed QA for all payment and shipping API integrations.
+</details>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Skills
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### Programming Languages
+
+*   JavaScript
+*   TypeScript
+*   C
+*   Java
+*   Python
+*   PHP
+
+### CRM
+
+*   WordPress
+*   Elementor
+*   WP-admin
+*   FCP
+*   e-fulfillment Services
+*   Zoho One (CRM, Books, Invoice, Flow)
+
+### Web Development
+
+*   ReactJS
+*   ExpressJS
+*   NodeJS
+*   NextJS
+*   Angular
+*   Vue
+*   Laravel
+*   JQuery
+*   Ajax
+*   Bootstrap
+*   Redux
+*   Axios
+*   J2EE
+*   Spring Boot
+*   IBM WAS
+*   Apache Tomcat
+*   WordPress
+*   Shopify
+*   Yoast SEO
+*   WooCommerce
+*   Stripe Payment
+*   HTML5
+*   XML
+*   XSL
+*   CSS3
+*   Sass
+
+### Cloud Services
+
+*   Amazon Web Services: EC2, S3, RDS, IAM
+
+### Databases
+
+*   MariaDB
+*   SQLite
+*   PostgreSQL
+*   MongoDB
+*  Oracle SQL
+* Apollo GraphQL
+
+### Mobile Development
+
+*   Flutter
+*   Dart
+*   Firebase
+
+### DevOps
+
+*   Docker
+*   Kubernetes
+*   Azure
+*   Terraform
+*   Vercel
+
+### Tools
+
+*   Git
+*   NPM
+
+### Project Management Tools
+
+*   JIRA
+*   Trello
+*   ClickUp
+*   Asana
+
+### Testing/Automation
+
+*   Mocha
+*   Selenium
+*   Allure
+*   PyTest
+
+### UI/UX Design
+
+*   JavaFX
+*   FXML
+*   PyGames
+*   Tkinter
+*   RShiny
+*   Figma
+*   Adobe XD
+*   Canva
+*   Adobe Photoshop
+*   Illustrator
+
+## Projects
+
+*   **ENCER** - medicinal e-commerce web (WordPress, Elementor, Bit Integration Pro, Stripe, PHP)
+*   **FLASH MOTORS** - automotive website QA (Python, Selenium, PyTest, Allure, Locust, Asana, Confluence)
+*   **BRINGBACK** - QR code repository service (NodeJS, ExpressJS, ReactJS, AWS EC2, RDS, S3, ELB, PayMaya, Jenkins)
+*   **PAYSHIPGO** - payment and shipping integration services (OAuth, PostgreSQL, AWS, Payment APIs, Shipping APIs)
+*   **TICKET-TAKA** - online ticketing service (WordPress, Elementor)
+*   **OTALKU** - social media app (Flutter, Firebase)
+*   **SELLBI** - e-commerce app (J2EE, Spring Boot, Apache Tomcat)
+*   **TAPnGET**- quick ordering app (Laravel, Angular, PHP)
+*   **THE UNIVERSE OF DOOM** - desktop game (JavaFX)
+*   **ASTERIS** - grade registry app (MERN)
+*   **NOTIFLY** - persistent notification app (MongoDB Atlas, Express, React, Node Selenium)
+
+## Education
+*   **University of the Philippines, Los Baños** – BS Computer Science
+    *   Summa Cum Laude
+    *   UPCAT 2019 Top 1 - Departmentals
+
+---
+
+## Contact
+
+Feel free to connect with me!
+<p><a href="tel:09611046081">0961-104-6081</a> | <a href="mailto:earlcapuchino@gmail.com">earlcapuchino@gmail.com</a></p>
+
+</div>
