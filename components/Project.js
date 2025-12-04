@@ -16,7 +16,7 @@ const Projects = () => {
             type: 'automotive website',
             stack: ['Python', 'Selenium', 'PyTest', 'Allure', 'Locust', 'Asana', 'Confluence'],
             photo: '/projects/flash.png',
-            link: 'https://flashmotors.com/infinity-scooters/',
+            link: 'https://flashmotors.com',
         },
         {
             title: 'BringBack',
