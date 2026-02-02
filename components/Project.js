@@ -23,14 +23,14 @@ const Projects = () => {
             type: 'QR code repository service',
             stack: ['NodeJS', 'ExpressJS', 'ReactJS', 'AWS EC2', 'RDS', 'S3', 'ELB', 'PayMaya', 'Jenkins'],
             photo: '/projects/bringback.png',
-            link: 'https://www.bringbackph.shop/',
+            link: 'https://www.bringback.shop/',
         },
         {
             title: 'PayShipGo',
             type: 'payment and shipping integration services',
             stack: ['OAuth', 'PostgreSQL', 'AWS', 'Payment APIs', 'Shipping APIs'],
             photo: '/projects/payshipgo.png',
-            link: 'https://www.payshipgo.com/',
+            link: 'https://www.payshipgo.online/',
         },
         {
             title: 'Ticket-Taka',
